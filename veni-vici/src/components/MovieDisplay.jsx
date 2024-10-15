@@ -1,5 +1,5 @@
 import React from 'react';
-import './MovieDisplay.css'; // Add this line at the top of your MovieDisplay.jsx
+import './MovieDisplay.css';
 
 function MovieDisplay({ movie, addToBanList }) {
   const { Title, Year, Genre, Rated, Poster, Director, Plot } = movie;
@@ -18,7 +18,7 @@ function MovieDisplay({ movie, addToBanList }) {
         <button onClick={() => addToBanList('titles', Title)}>Ban Title</button>
         <button onClick={() => addToBanList('years', Year)}>Ban Year</button>
         <button onClick={() => addToBanList('ratings', Rated)}>Ban Rating</button>
-        {/* Genres can have multiple values, so we map through them */}
+        {}
         {Genre.split(', ').map((genre, index) => (
           <button key={index} onClick={() => addToBanList('genres', genre)}>Ban Genre: {genre}</button>
         ))}
