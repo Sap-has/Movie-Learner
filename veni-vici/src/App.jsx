@@ -18,7 +18,7 @@ function App() {
   };
 
   const fetchMovieDetails = async (imdbID) => {
-    const response = await fetch(`http://www.omdbapi.com/?apikey=befa5a5c&i=${imdbID}`);
+    const response = await fetch(`http://www.omdbapi.com/?apikey=YOUR_API__KEY&i=${imdbID}`);
     const movieDetails = await response.json();
     
     const isBanned = banList.titles.includes(movieDetails.Title) ||
