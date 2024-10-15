@@ -2,7 +2,7 @@
 
 Submitted by: **Epifanio Sarinana**
 
-This web app: **The web app contains movies from Imdb from 2014 to 20224. The purpose is to see what movies exist, who are the main actors, director, rating, year released and a summary.**
+This web app: **The web app contains movies from Imdb from 2014 to 20224. The purpose is to see what movies exist, who are the main actors, director, rating, year released and a summary. It captures a list around 11 thousand movies with their IMdb id. After that is shows the information mentioned before.**
 
 Time spent: **7** hours spent in total
 
